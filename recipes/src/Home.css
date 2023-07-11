@@ -1,0 +1,47 @@
+
+.logo{
+    font-family: cursive;
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 10rem;
+  
+    display: flex;
+    grid-column: 2/4;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .logo h1 span{
+    font-size: 8.5rem;
+  }
+  .logo h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,rgb(69,57,248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .discription{
+    
+    width: 90%;
+    height: 30rem;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px brown;
+    display: inline-block;
+
+  }
+  .about{
+    color:peru;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    text-align: start;
+  }
+ 
+ 

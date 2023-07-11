@@ -1,0 +1,21 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-item {
+    margin-right: 5px;
+  }
+  
+  .page-link {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background: skyblue;
+   
+    cursor: pointer;
+  }
+  
